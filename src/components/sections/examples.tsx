@@ -6,12 +6,12 @@ const examples = [
   {
     title: 'Playtime Activities',
     stereotypical: {
-      image: 'https://picsum.photos/seed/girl-doll/600/400',
+      image: '/imgs/img1.jpg',
       hint: 'girl doll',
       description: 'Girls are often shown in domestic settings, playing with dolls or kitchen sets, reinforcing caregiving roles.',
     },
     nonStereotypical: {
-      image: 'https://picsum.photos/seed/girl-building/600/400',
+      image: '/imgs/img2.jpg',
       hint: 'girl building',
       description: 'Encourage play with STEM toys like building blocks or science kits, fostering problem-solving and creativity.',
     },
@@ -19,12 +19,12 @@ const examples = [
   {
     title: 'Character Behavior',
     stereotypical: {
-      image: 'https://picsum.photos/seed/boy-disruptive/600/400',
+      image: '/imgs/img3.jpg',
       hint: 'boy disruptive',
       description: 'Boys are frequently portrayed as rebellious or "cool" for breaking rules, which can normalize disruptive behavior.',
     },
     nonStereotypical: {
-      image: 'https://picsum.photos/seed/boy-helping/600/400',
+      image: '/imgs/img4.jpg',
       hint: 'boy helping',
       description: 'Showcasing boys as collaborative, empathetic, and kind helps build a broader definition of masculinity.',
     },
@@ -32,12 +32,12 @@ const examples = [
   {
     title: 'Appearance and Interests',
     stereotypical: {
-      image: 'https://picsum.photos/seed/princess-makeup/600/400',
+      image: '/imgs/img5.jpg',
       hint: 'princess makeup',
       description: 'An overwhelming focus on beauty, princesses, and makeup suggests a girl\'s value is tied to her appearance.',
     },
     nonStereotypical: {
-      image: 'https://picsum.photos/seed/girl-climbing/600/400',
+      image: '/imgs/img6.jpg',
       hint: 'girl climbing',
       description: 'Highlighting interests in sports, adventure, or leadership teaches that girls can be strong, active, and bold.',
     },

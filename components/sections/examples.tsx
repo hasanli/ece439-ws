@@ -1,4 +1,4 @@
-import Image from 'next/image';
+// import Image from 'next/image';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { ThumbsDown, ThumbsUp } from 'lucide-react';
 
@@ -71,7 +71,7 @@ export default function ExamplesSection() {
                     </CardTitle>
                   </CardHeader>
                   <CardContent className="space-y-4">
-                    <Image
+                    <img
                       src={example.stereotypical.image}
                       alt="Stereotypical example"
                       width={600}
@@ -90,7 +90,7 @@ export default function ExamplesSection() {
                     </CardTitle>
                   </CardHeader>
                   <CardContent className="space-y-4">
-                    <Image
+                    <img
                       src={example.nonStereotypical.image}
                       alt="Non-stereotypical example"
                       width={600}
