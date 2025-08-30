@@ -1,0 +1,25 @@
+# https://firebase.google.com/docs/hosting/full-config#apphosting-yaml
+run:
+  # The command to start your app.
+  command: npm run start
+  # The service account that your app will use to interact with other Google Cloud services.
+  serviceAccount: managed-by-app-hosting
+settings:
+  # The environment variables that will be available to your app.
+  environmentVariables:
+    - variable: FIREBASE_AUTH_EMULATOR_HOST
+      value: '127.0.0.1:9099'
+    - variable: GENKIT_ENV
+      value: prod
+    - variable: GENKIT_API_URL
+      value: http://127.0.0.1:3100
+    - variable: GENKIT_FLOW_SERVE_PORT
+      value: '3100'
+  # The secrets that will be available to your app.
+  # See https://firebase.google.com/docs/functions/config-env#secret-manager
+  # secrets:
+  #  - GEMINI_API_KEY
+cpu: 1
+memory: 1Gi
+concurrency: 80
+timeout: 120s
